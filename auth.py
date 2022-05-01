@@ -6,7 +6,7 @@ def get_token(x):
     payload = 'grant_type=client_credentials'
     headers = {
         'Authorization': 'Basic '
-                         'ZmMzZWM3OGFjZGI1NGU5MmJiZjhkNzU0YjVlYTk3NTI6VTU4VGVuS2hUYTVTbnJlUW1MZlF2WDhnUUw3dFk5QzM=',
+                         '{WOW_CLIENT_ID}:{WOW_CLIENT_SECRET}',
         'Content-Type': 'application/x-www-form-urlencoded'
     }
     response = requests.request("POST", url, headers=headers, data=payload).json()
