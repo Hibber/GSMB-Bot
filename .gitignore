@@ -139,6 +139,7 @@ dmypy.json
 cython_debug/
 
 !/desktop.ini
+!/desktop.ini
 !/.github/
 !/.github/CODE_OF_CONDUCT.md
 !/.github/LICENSE
